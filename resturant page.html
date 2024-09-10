@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./CSS/style.css">                
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <div>
+                <a class="navbar-brand" href="#"><span class="fs-4">HOTEL</span><span class="text-warning px-1 fs-4">DELUXE</span> <h6 class="d-inline">Hotel & Resturant</h6></a>
+                  </div>
+                  <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end  bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel"><a class="nav-link2" href="./index.html"><span class="fs-4 text-light" >HOTEL</span><span
+                            class="text-warning px-1 fs-4">DELUXE</span></h5>
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                              <li class="nav-item">
+                              <a class="nav-link" href="./index.html" aria-current="page">Home<span class="visually-hidden">(current)</span></a>
+                              </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Services
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                      <li><a class="dropdown-item" href="./resturant page.html">Restaurant</a></li>
+                                      <li><a class="dropdown-item" href="./coffee page.html">Coffee</a></li>
+                                      <li><a class="dropdown-item" href="./Fan & Relaxaition.html">Fun & Relaxation</a></li>
+                                      <li><a class="dropdown-item" href="./Bedroom page.html">Bedroom</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+        </div>
+      <div>
+    </div>
+  </nav>
+
+<div class="header-css">
+    <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./photos/r1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="text-warning bg-slide rounded p-2 d-inline-block">First slide label</h5>
+              <p class="bg-slide rounded p-2 d-inline-block">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./photos/r2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="text-warning bg-slide rounded p-2 d-inline-block">Second slide label</h5>
+              <p class="bg-slide rounded p-2 d-inline-block">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./photos/Restaurant.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5 class="text-warning bg-slide rounded p-2 d-inline-block">Third slide label</h5>
+              <p class="bg-slide rounded p-2 d-inline-block">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+      <section class="my-3">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                    <div class="card-css rcard1">
+                      <i class="bi bi-cookie"></i>                        
+                      <h4 class="p-2 text-light">Burger</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">Cheeseburger, Avocado burgers and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard2">
+                        <i class="bi bi-cookie"></i>                       
+                        <h4 class="p-2 text-light">Pizza</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">TMargherita Pizza, Sicilian pizza and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard3">
+                        <i class="bi bi-cookie"></i>                        
+                        <h4 class="p-2 text-light">Bobotie</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">Best Bobotie, Hotdog, Boritu and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard4">
+                        <i class="bi bi-cookie"></i>                        
+                        <h4 class="p-2 text-light">Lasagna</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">A lot of Lassania, Lahamajon and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-3">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard5">
+                        <i class="bi bi-cup-straw"></i>
+                        <h4 class="p-2 text-light">Orange Juice</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">Biotral Orange, 200ml Orange and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard6">
+                        <i class="bi bi-cup-straw"></i>
+                        <h4 class="p-2 text-light">Dragon Juice</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">Dragon Fruit Juice, Vodka and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard7">
+                        <i class="bi bi-cup-straw"></i>                        
+                        <h4 class="p-2 text-light">Plum Juice</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">100% Pure Squeezed, Pulp Free and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="p-1">
+                      <div class="card-css rcard8">
+                        <i class="bi bi-cup-straw"></i>                        
+                        <h4 class="p-2 text-light">Seven Juice</h4>
+                        <h6 class="p-1 text-light"><br><br><br></h6>
+                        <p class="p-1 text-light">Cold Juice, a lot of Fruits Juice and etc...</p>
+                        <button class="button-62" role="button">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5">
+      <div class="container">
+        <div class="w-100 mb-4  text-center py-4 rounded"
+        style="   background: linear-gradient(to bottom right, #ef4747, #2c2826);
+        ">
+        <h3 class="text-light">Other Foods and Drinks</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h3 class="text-center food-border">Food</h3>
+                </div>
+                <div class="p-3">
+                    <div class="buy-card">
+                        <div class="bg-card bg5"></div>
+                        <div class="text">
+                            <h6 class="tit-card">Fish & Chips</h6>
+                            <p class="text-card text-center">battered fish with crispy fries, often served with peas.</p>
+                            <span class="span-card">70$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="buy-card">
+                        <div class="bg-card bg6"></div>
+                        <div class="text">
+                            <h6 class="tit-card">Mushroom Burger</h6>
+                            <p class="text-card text-center">a beef patty topped with sauteed mushrooms and cheese.</p>
+                            <span class="span-card">58$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="buy-card">
+                        <div class="bg-card bg7"></div>
+                        <div class="text">
+                            <h6 class="tit-card">Hotdog Sandwich</h6>
+                            <p class="text-card text-center">a grilled sausage in a sliced bun, often topped.</p>
+                            <span class="span-card">55$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <div class="buy-card">
+                        <div class="bg-card bg8"></div>
+                        <div class="text">
+                            <h6 class="tit-card">Spaghetti & Meatballs</h6>
+                            <p class="text-card text-center">pasta with tomato sauce and savory meatballs.</p>
+                            <span class="span-card">47$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3">
+                  <div class="buy-card">
+                      <div class="bg-card bg9"></div>
+                      <div class="text">
+                          <h6 class="tit-card">Crispy Fried Chicken</h6>
+                          <p class="text-card text-center">battered and deep-fried for a crunchy texture.</p>
+                          <span class="span-card">40$</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                  <h3 class="text-center food-border">Food</h3>
+              </div>
+              <div class="p-3">
+                  <div class="buy-card">
+                      <div class="bg-card bg5"></div>
+                      <div class="text">
+                          <h6 class="tit-card">Fish & Chips</h6>
+                          <p class="text-card text-center">battered fish with crispy fries, often served with peas.</p>
+                          <span class="span-card">70$</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="p-3">
+                  <div class="buy-card">
+                      <div class="bg-card bg6"></div>
+                      <div class="text">
+                          <h6 class="tit-card">Mushroom Burger</h6>
+                          <p class="text-card text-center">a beef patty topped with sauteed mushrooms and cheese.</p>
+                          <span class="span-card">58$</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="p-3">
+                  <div class="buy-card">
+                      <div class="bg-card bg7"></div>
+                      <div class="text">
+                          <h6 class="tit-card">Hotdog Sandwich</h6>
+                          <p class="text-card text-center">a grilled sausage in a sliced bun, often topped.</p>
+                          <span class="span-card">55$</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="p-3">
+                  <div class="buy-card">
+                      <div class="bg-card bg8"></div>
+                      <div class="text">
+                          <h6 class="tit-card">Spaghetti & Meatballs</h6>
+                          <p class="text-card text-center">pasta with tomato sauce and savory meatballs.</p>
+                          <span class="span-card">47$</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="p-3">
+                <div class="buy-card">
+                    <div class="bg-card bg9"></div>
+                    <div class="text">
+                        <h6 class="tit-card">Crispy Fried Chicken</h6>
+                        <p class="text-card text-center">battered and deep-fried for a crunchy texture.</p>
+                        <span class="span-card">40$</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="mt-5">
+      <footer
+              class="text-center  text-white"
+              style="background-color: rgb(20, 19, 19)">
+        <section
+                 class="d-flex justify-content-between p-4"
+                 style="background-color: rgb(65, 61, 61)">
+          <div class="me-5">
+            <span>Get connected with us on social networks:</span>
+          </div>
+            <div>
+            <a href="https://www.facebook.com/mahyar.maher.10?mibextid=LQQJ4d" class="text-white text-decoration-none me-4">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://x.com/PruFeSsor" class="text-white text-decoration-none me-4">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-4">
+              <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com/official_mahyar/" class="text-white text-decoration-none me-4">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="text-white text-decoration-none me-4">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/MahyarRahmati" class="text-white text-decoration-none me-4">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+  
+        </section>
+    
+        <section class="mt-4">
+          <div class="container text-center text-md-start">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold">Hotel name</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+  HOTEL DELUXE offers an exceptional stay for its guests, combining modern architecture with traditional hospitality. This hotel provides easy access to major tourist attractions, and entertainment venues.
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Products</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  <a href="#!" class="text-white">Html</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Css</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Bootstrap</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Bootstrap Icons</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                <p>
+                  <a href="#" class="text-white">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Your Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold">Contact </h6>
+                <hr
+                    class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                    />
+                    <div class="">
+                      <div class="d-flex flex-column justify-content-center">
+                        <div class="mb-3"><i class="bi bi-house-heart-fill"></i><a href="" class="text-white"> New York, NY 10012, US</a></div>
+                        <div class="mb-3"><i class="bi bi-envelope"></i><a href="" class="text-white fs-25"> Hotel.Deluxe@Outlook.com</a></div>
+                        <div class="mb-3"><i class="bi bi-telephone"></i><a href="" class="text-white"> +01 256 372 5632</a></div>
+                        <div class="mb-3"><i class="bi bi-sticky"></i><a href="" class="text-white"> +01 256 372 5633</a></div>
+  
+                      </div>
+                    </div>
+              </div>
+              </div>
+              </div>
+              </section>
+              </footer>
+              </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
