@@ -1,4 +1,21 @@
-/* card style section 1 */
+/* Card Style Section 1 */
+.card-css{
+  border-radius: 10px;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card-css i{
+color: #e25822;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.1);
+border-radius: 100%;
+box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+/* Link's Card Section 1 */
 .rcard1{
     background-image: url("../photos/burger.jpg");
 }
@@ -57,6 +74,7 @@
     background-repeat: no-repeat;
     background-position: center;
    }
+   /* Link's Card Section 2 */
    .bg5{
     background-image: url("../photos/fish\ &\ chips.jpg");
    }
@@ -89,3 +107,25 @@
   .juice-card5{
     background-image: url("../photos/purified\ water.jpg");
   }
+  /* Button Style */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}

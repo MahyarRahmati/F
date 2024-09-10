@@ -1,11 +1,18 @@
-/* Home Page Style */
+/* Navbar Style */
+.nav-link2{
+  text-decoration: none;
+}
+.i-shop{
+  padding: 10px;
+  color: #ffc107;
+}
+/* Header Style */
 .ho{
     border-bottom: 2px solid #fff;
     display: inline-block;
     padding: 5px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
-
 }
 .ho-2{
   border-bottom: 2px solid #fff;
@@ -13,13 +20,6 @@
     padding: 5px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 4px;
-}
-.nav-link2{
-  text-decoration: none;
-}
-.i-shop{
-  padding: 10px;
-  color: #ffc107;
 }
 .p-4{
   font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@
   font-family: 'Montserrat', sans-serif; 
   font-weight: bold; 
 }
-/* bg header style */
+/* bg Header Style */
 .back{
     width: 100%;
     height: 100vh;
@@ -41,22 +41,22 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 }
-/* Home Page - Card Style */
+/* Home - Card Style */
 .card-css{
-    border-radius: 10px;
-    padding: 10px;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .card-css i{
-  color: #e25822;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 100%;
-  box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+color: #e25822;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.1);
+border-radius: 100%;
+box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 /* Card Links */
 .card1{
@@ -93,9 +93,6 @@
   touch-action: manipulation;
   white-space: nowrap;
 }
-.aboutUs{
-    background-color: gray;
-}
 .fs-25{
     text-wrap: wrap;
     font-size: 11px;
@@ -104,7 +101,6 @@
 .color{
     border-bottom: 4px solid #e25822;
     width: 150px;
-    
 }
 .color-3{
     color: #e25822;
@@ -112,28 +108,10 @@
 .bg-slide{
     background: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-
 }
-/* Border - Other Foods and Drinks */
-.food-border{
-    display: block;
-    width: 150px;
-    border-bottom: 5px solid #e25822;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 10px;
-}
-.use-free{
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  border-radius: 5px;
-}
+/* Home - accordion Style */
 .accordion-header1:focus{
   background-color: #ffc107  !important;
-
 }
 .accordion-button:focus{
   background-color: #ffc107  !important;
