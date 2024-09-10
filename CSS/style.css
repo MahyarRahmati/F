@@ -17,6 +17,10 @@
 .nav-link2{
   text-decoration: none;
 }
+.i-shop{
+  padding: 10px;
+  color: #ffc107;
+}
 .p-4{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;   
@@ -26,7 +30,7 @@
   font-family: 'Montserrat', sans-serif; 
   font-weight: bold; 
 }
-
+/* bg header style */
 .back{
     width: 100%;
     height: 100vh;
@@ -92,59 +96,6 @@
 .aboutUs{
     background-color: gray;
 }
-
-/* Resturant Page Style's Card */
-.rcard1{
-    background-image: url("../photos/burger.jpg");
-}
-.rcard2{
-    background-image: url("../photos/Pizza.jpeg");
-}
-.rcard3{
-    background-image: url("../photos/Bobotie.jpg");
-}
-.rcard4{
-    background-image: url("../photos/lasagna.jpg");
-}
-.rcard5{
-    background-image: url("../photos/orange\ juice.jpg");
-}
-.rcard6{
-    background-image: url("../photos/pineapple\ juice.jpg");
-}
-.rcard7{
-    background-image: url("../photos/Pomegranate\ juice.jpg");
-}
-.rcard8{
-    background-image: url("../photos/Seven\ flavors\ juice.jpg");
-}
-
-/* Coffee Page Style's Card */
-.c-card1{
-  background-image: url(../photos/RedEye\ Coffee.jpg);
-}
-.c-card2{
-  background-image: url(../photos/mocha\ coffee.png);
-}
-.c-card3{
-  background-image: url(../photos/ColdBrew\ Coffee.jpg);
-}
-.c-card4{
-  background-image: url(../photos/Black\ Coffee.jpg);
-}
-.c-card5{
-  background-image: url(../photos/Angel\ cake.jpg);
-}
-.c-card6{
-  background-image: url(../photos/Carrot\ cake.jpg);
-}
-.c-card7{
-  background-image: url(../photos/Cheese\ cake.jpg);
-}
-.c-card8{
-  background-image: url(../photos/Chocolate\ cake.jpg);
-}
-
 .fs-25{
     text-wrap: wrap;
     font-size: 11px;
@@ -163,106 +114,6 @@
     background-blend-mode: multiply;
 
 }
-/* .card-css {
-    border: none;
-  }
-  img,
-  .card-img-top {
-    border-radius: 0em;
-  }
-  
-  @media (min-width: 576px) {
-    .card-columns {
-      column-count: 2;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .card-columns {
-      column-count: 3;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .card-columns {
-      column-count: 4;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .card-columns {
-      column-count: 5;
-    }
-  }
-   */
-
-   .buy-card{
-    width: 100%;
-    height: 150px;
-    border-radius: 70px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    display: flex;
-    overflow: hidden;
-   }
-   .text{
-    width: 50%;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
-    flex-direction: column;
-   }
-   @media (min-width: 768px) {
-    .bg-card{width: 35%;}
-    .text{width: 75%;}
-  }
-   .span-card{
-    color: #e25822;
-    font-weight: bold;
-   }
-   .tit-card{
-    font-weight: bold;
-   }
-   .bg-card{
-    width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   }
-   .bg0{
-    background-image: url("../photos/cappuccino.jpg");
-   }
-   .bg1{
-    background-image: url("../photos/flat\ white.jpg");
-    order: 2;
-   }
-   .bg2{
-    background-image: url("../photos/velvet\ coffee.jpg");
-   }
-   .bg3{
-    background-image: url("../photos/cinnamon\ coffee.jpg");
-    order: 2;
-   }
-   .bg4{
-    background-image: url("../photos/cafe\ latte.jpg");
-   }
-   .bg5{
-    background-image: url("../photos/fish\ &\ chips.jpg");
-   }
-   .bg6{
-    background-image: url("../photos/Mushroom\ Burger.jpg");
-    order: 2;
-   }
-   .bg7{
-    background-image: url("../photos/hotdog\ sandwich.jpg");
-   }
-   .bg8{
-    background-image: url("../photos//spaghetti\ &\ meatballs.jpg");
-    order: 2;
-   }
-   .bg9{
-    background-image: url("../photos/crispy\ fried\ chicken.jpg");
-   }
-
 /* Border - Other Foods and Drinks */
 .food-border{
     display: block;
@@ -272,11 +123,6 @@
     margin: auto;
     padding-bottom: 10px;
 }
-/* Order & Register Style */
-.shadow-box{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-/* Fun & Relaxaition Page - Text above the carousel */
 .use-free{
   font-size: 24px;
   font-weight: bold;
@@ -298,134 +144,4 @@
   background-color: #ffc107  !important;
   box-shadow:none !important;
 }
-
-
-.img-index{
-  display: flex;
-  position: relative;
-  
-}
-.img-1{
-  position: absolute;
-  z-index: 5;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.img-2{
-  position: absolute;
-  z-index: 6;
-  border-radius: 10px;
-  overflow: hidden;
-  bottom: 10px;
-  }
-  .img-3{
-    position: absolute;
-    bottom: 10px;
-    z-index: 7;
-    overflow: hidden;
-    }
-
-.card-2{
-  position: relative;
-  width :470px;
-  height: 230px;
-  padding: 15px;
-  background: linear-gradient(60deg , #151516 0%, #1d2229 100%);
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);    
-}
-.card-2 h2{
-  z-index: 99;
-  position: absolute;
-  bottom: 25px;
-  right: 130px;
-  font-size: 50px;
-  font-weight: 700;
-  color: #fff;
-  pointer-events: none;
-  transition:  0.5s ease;
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-}
-
-.card-2 p{
-  z-index: 99;
-  position: absolute;
-  bottom: 30px;
-  right: 130px;
-  width: 150px;
-  color: #fff;
-  font-size: 12px;
-  opacity: 0;
-  letter-spacing: 1;
-  transition: 0.5s ease;
-
-}
-.card-2 span{  
-  z-index: 99;
-  position: absolute;
-  top: 80px;
-
-  width: 150px;
-  color: #fff;
-  font-size: 15px;
-  letter-spacing: 0.1;
-  transition: 0.5s ease;
-  writing-mode: vertical-lr;
-  font-weight: bold;
-}
-.card-2 .pic{
-  z-index: 100;
-  width: 300px;
-  height: 200px;
-  background-image: url('../photos/bed1.jpg');
-  background-size: cover;
-  border-radius: 12px;
-  filter: grayscale(100%);
-  transition: 0.3s ease;
-}
-.card-2 button{
-  position: absolute;
-  right: 30px;
-  bottom: 40px;
-  width: 30px;
-  height: 30px;
-  background-color: #ffc107;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  outline: none;
-  opacity: 1;
-  transition: 0.5 ease;
-
-}
-.card-2:hover button{
-  transform: scale(16.5);
-  opacity: 0.5;
-  transition: 0.5s ease;
-}
-.card-2:hover h2{
-  bottom: 80px;
-  right: 50px;
-
-}
-.card-2:hover p{
-  opacity: 1;
-  right: 60px;
-
-}
-
-
-
-.card-2:hover span{
-  opacity: 0;
-  top: 80px;
-
-}
-.card-2:hover .pic{
-  filter: grayscale(0);
-  width: 450px;
-}
-
 
