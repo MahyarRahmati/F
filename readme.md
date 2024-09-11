@@ -10,7 +10,7 @@ Welcome to [HOTEL DELUXE], where we bring you a unique dining experience with ex
 
 Our online ordering system is designed to make your dining experience as convenient as possible. To place an order, follow these simple steps:
 
-1. Browse the Menu: Visit our [Menu](https://mahyarrahmati.github.io/F/resturant%20page.html) page to explore our delicious offerings.
+1. Browse the Menu: Visit our [Menu](https://mahyarrahmati.github.io/Final-Project/resturant%20page.html) page to explore our delicious offerings.
 2. Select Your Items: Add your desired items to the cart by choosing the quantity and any special instructions.
 3. Review Your Order: Check the items in your cart, make any necessary adjustments, and proceed to checkout.
 
@@ -26,7 +26,7 @@ Once payment is confirmed, you will receive an order confirmation via email with
 
 ## 2. Menu
 
-Our menu features a wide range of mouth-watering dishes crafted from the finest ingredients. From appetizers to desserts, our menu caters to all tastes and dietary preferences. Explore our [Menu](https://mahyarrahmati.github.io/F/coffee%20page.html) page to discover:
+Our menu features a wide range of mouth-watering dishes crafted from the finest ingredients. From appetizers to desserts, our menu caters to all tastes and dietary preferences. Explore our [Menu](https://mahyarrahmati.github.io/Final-Project/resturant%20page.html) page to discover:
 
 - Starters: Enjoy a selection of appetizers that are perfect for beginning your meal.
 - Main Courses: Savor our delicious main courses, including both vegetarian and non-vegetarian options.
@@ -49,7 +49,7 @@ For those looking to extend their stay, our restaurant features elegantly design
 - Room Service: Take advantage of our room service for dining in the comfort of your room.
 - Exclusive Rates: Book directly through our website to access exclusive rates and special offers.
 
-To learn more about our rooms and make a reservation, visit our [Rooms](https://mahyarrahmati.github.io/F/Bedroom%20page.html) page.
+To learn more about our rooms and make a reservation, visit our [Rooms](https://mahyarrahmati.github.io/Final-Project/Bedroom%20page.html) page.
 
 ## 5. Contact Us
 
