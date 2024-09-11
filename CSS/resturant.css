@@ -84,6 +84,7 @@ box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.
    /* Link's Card Section 2 */
    .bg5{
     background-image: url("../photos/fish\ &\ chips.jpg");
+    background-position: left;
    }
    .bg6{
     background-image: url("../photos/Mushroom\ Burger.jpg");

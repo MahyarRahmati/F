@@ -1,5 +1,5 @@
 # Final Project
-
+[Open Demo](https://mahyarrahmati.github.io/Final-Project/)
 # Welcome to [HOTEL DELUXE]
 
 Welcome to [HOTEL DELUXE], where we bring you a unique dining experience with exceptional food, delightful beverages, and luxurious accommodations. Our mission is to provide you with outstanding service and an unforgettable experience. This README will guide you through our website features, including how to place orders, make payments, explore our menu, enjoy our café, and learn about our rooms.
