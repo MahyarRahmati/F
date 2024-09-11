@@ -43,24 +43,39 @@ box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.
   
 /* card style section 2 */
 .buy-card{
-    width: 100%;
-    height: 150px;
-    border-radius: 70px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    display: flex;
-    overflow: hidden;
-   }
-   .text{
-    width: 50%;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
-    flex-direction: column;
-   }
-   @media (min-width: 768px) {
-    .bg-card{width: 35%;}
-    .text{width: 75%;}
-  }
+  width: 100%;
+  height: 150px;
+  border-radius: 70px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: flex;
+  overflow: hidden;
+ }
+ .text{
+  width: 70%;
+  display: flex;
+  align-items:center ;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .span-card{
+  color: #e25822;
+  font-weight: bold;
+ }
+ .tit-card{
+  font-weight: bold;
+ }
+ .bg-card{
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+ @media (min-width: 768px) {
+  .bg-card{width: 30%;}
+  .text{width: 70%;}
+}
    .span-card{
     color: #e25822;
     font-weight: bold;
@@ -68,12 +83,7 @@ box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.
    .tit-card{
     font-weight: bold;
    }
-   .bg-card{
-    width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   }
+
    /* Link's Card Section 2 */
    .bg0{
     background-image: url("../photos/cappuccino.jpg");

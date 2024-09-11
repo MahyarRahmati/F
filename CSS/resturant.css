@@ -1,3 +1,8 @@
+/* Text of Crousel */
+.bg-slide{
+  background: rgba(5, 5, 5, 0.7);
+  background-blend-mode: multiply;
+}
 /* Card Style Section 1 */
 .card-css{
   border-radius: 10px;
@@ -51,16 +56,14 @@ box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.
     overflow: hidden;
    }
    .text{
-    width: 50%;
+    width: 70%;
     display: flex;
     align-items:center ;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    text-align: center;
    }
-   @media (min-width: 768px) {
-    .bg-card{width: 35%;}
-    .text{width: 75%;}
-  }
+
    .span-card{
     color: #e25822;
     font-weight: bold;
@@ -69,11 +72,15 @@ box-shadow: rgba(172, 167, 167, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.
     font-weight: bold;
    }
    .bg-card{
-    width: 50%;
+    width: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
    }
+   @media (min-width: 768px) {
+    .bg-card{width: 40%;}
+    .text{width: 60%;}
+  }
    /* Link's Card Section 2 */
    .bg5{
     background-image: url("../photos/fish\ &\ chips.jpg");
